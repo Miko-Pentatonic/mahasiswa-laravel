@@ -45,4 +45,4 @@ Route::get('/mahasiswa', 'App\Http\Controllers\MahasiswaController@index');
 // Route::patch('/students/{student}', 'App\Http\Controllers\StudentsController@update');
 
 //Ini utk membuat route otomatis, jadi kita nggak perlu membuat manual
-Route::resource('students', 'App\Http\Controllers\StudentsController');
+Route::resource('students', 'App\Http\Controllers\StudentsController'); 
